@@ -1,0 +1,7 @@
+double bmi, masa, wzrost;
+Console.WriteLine("Podaj masę w kg");
+masa = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Podaj wzrost w metrach");
+wzrost = Convert.ToDouble(Console.ReadLine());
+bmi = masa / (wzrost * wzrost);
+Console.WriteLine("Twoje BMI wynosi = {0:f2}", bmi);
